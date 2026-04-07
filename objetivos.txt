@@ -1,0 +1,9 @@
+mfcc (Coeﬁcientes Cepstrales en las Frecuencias de Mel)
+    dividimos el audio en partes pequeñas
+    aplicamos transformada de fourier discreta para obtener la potencia espectral de la señal
+    Aplicar el banco de filtros correspondientes a la Escala Mel al espectro obtenido en el paso anterior y sumar las energías en cada uno de ellos.
+    Tomar el logaritmo de todas las energías de cada frecuencia mel.
+    Aplicarle la transformada de coseno discreta a estos logaritmos.
+
+    los valores que sacamos de aca son los que buscamos aunque se pueden sumar los valores  "deltas" o "delta-deltas"
+    
